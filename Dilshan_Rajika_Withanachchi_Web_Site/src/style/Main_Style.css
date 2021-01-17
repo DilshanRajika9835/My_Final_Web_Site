@@ -29,18 +29,24 @@ body  > main > article >section {
 /*===============================Column One==========================================================*/
 body  > main > article >section .column_one {
     border: 1px solid white;
-    height:497px ;
+    height:max-content ;
     margin-left: 4px;
     position: relative;
+    border-radius: 10px;
 }
 
 .column_one .card{
     background: #f7f5f5;
     border: 1px solid;
-    color: black
+    color: black;
+    height: 100%;
+    border-radius: 10px;
 }
 .column_one .card .profile-img{
-    width: 100%;
+    border-radius: 10px;
+
+}
+.column_one .card .profile-img img{
     border-radius: 10px;
 }
 .column_one .card .profile-img #profiel{
@@ -95,7 +101,8 @@ body  > main > article >section .column_one {
 body  > main > article >section .column_two{
     position: relative;
     border:  1px solid white;
-    height:497px ;
+    height:max-content ;
+    border-radius: 10px;
 }
 article > section .column_two>img{
     left: 0;
@@ -116,6 +123,7 @@ article > section .column_two>img{
     display: flex;
     align-items: flex-end;
     border-radius: 10px;
+
 
 }
 .team-text{
@@ -279,6 +287,7 @@ body  > main > article >section .column_four{
 body  > main > article >section .column_four>div{
     font-family: 'Roboto',sans-serif;
     border: 1px solid white;
+    border-radius: 10px;;
 }
 body  > main > article >section .column_four .software_Skill ,body  > main > article >section .column_four .technical_skill{
     display: flex;
@@ -434,6 +443,7 @@ body  > main > article >section .column_five {
     text-align: center;
     place-items: center;
     border: 1px solid white;
+    border-radius: 10px;
 }
 .column_five .slider_two .card_two .image_two img{
     border-top-right-radius: 10px;
