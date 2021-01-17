@@ -1,55 +1,70 @@
-body>header{
-    height: 38px;
-    box-shadow: 1px 2px 4px #d5cccc;
-    background-color: #111010;
-    position: relative;
+body{
+    /*overflow-x: hidden;*//*
+    background-color: #111010;*/
 }
-body>header>h2:nth-child(1){
-   margin: 0;
-    padding: 10px;
-    cursor: pointer;
-}
-body>header>h2:nth-child(1)>i{
-     color: whitesmoke;
- }
-body>header>h2:nth-child(2){
+body .page_header{
     color: white;
-    font-size: 10px;
-    padding: 10px;
-    top: 0;
-    left: 46px;
-    position: absolute;
-}
-body>header>ul{
-    list-style: none;
-    right: 0;
-    color: #f5f2f3;
-    top: 0;
-    margin: 5px;
-    position: absolute;
-    width: max-content;
-}
-body>header>ul>li{
-    padding: 5px;
-    font-size: 12px;
-    cursor: pointer;
-    display: inline-block;
-}
-body>main>section>img{
-    height: 427px;
+    z-index: 1;
+    position: relative;
     width: 100%;
-}
-i{
-    color: #d5cccc;
+    height: 41px;
+    background-color: #111111;
+    box-shadow: 1px 2px 4px #d5cccc;
 
 }
-/*--------------------------------------------------------*/
+.page_header .list ,.page_header .list ul{
+    margin: 0 0 0 0;
+    padding: 0;
+    list-style: none;
+
+}
+.page_header .list li ,.sub-list li{
+    float: left;
+    width: 113px;
+    height: 41px;
+    background-color: #141514;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.page_header .list li a ,.sub-list li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+
+.page_header .list li a:hover ,.sub-list li a:hover{
+    background: green;
+
+}
+.page_header .list li ul li{
+    display: none;
+}
+.page_header .list li:hover ul li{
+    display: block;
+}
+
+/*----------------------Drop Down Menu End--------------------------------------*/
+
+/*----------------------Social media Header Start----------------------------------------*/
+.slider_images{
+    position: relative;
+}
+main .slider_images img{
+    width: 100%;
+    margin-top: -83px;
+}
 .wrapper{
     display: inline-flex;
     place-items: center;
     position: absolute;
-    top: 415px;
     left: 0;
+    right: 0;
+    bottom: 31px;
+    margin: auto;
 }
 .wrapper .icon{
     margin: -7px 3px;
