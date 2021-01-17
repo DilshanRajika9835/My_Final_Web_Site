@@ -1,7 +1,4 @@
-body{
-    /*overflow-x: hidden;*//*
-    background-color: #111010;*/
-}
+
 body .page_header{
     color: white;
     z-index: 1;
@@ -35,6 +32,9 @@ body .page_header{
     display: block;
     cursor: pointer;
 }
+.page_header .list li i{
+    margin: 5px;
+}
 
 .page_header .list li a:hover ,.sub-list li a:hover{
     background: green;
@@ -46,17 +46,92 @@ body .page_header{
 .page_header .list li:hover ul li{
     display: block;
 }
-
-/*----------------------Drop Down Menu End--------------------------------------*/
-
-/*----------------------Social media Header Start----------------------------------------*/
 .slider_images{
     position: relative;
+}
+.slider_images::before{
+    content: "Hello I'm Dilshan Rajika Withanachchci";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 30px;
+    background: -webkit-linear-gradient(360deg, #0a37e8,#dc0c0c,black,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
+    height: max-content;
+    font-weight: 600;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+}
+
+.slider_images::after{
+    content: "Hello I'm Dilshan Rajika Withanachchci";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 17px;
+    color: #f3efef;
+    width: max-content;
+    height: max-content;
+    font-weight: 600;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    top: 65px;
+}
+.slider_images .logo{
+    position: absolute;
+    width: 215px;
+    left: 0;
+    margin: auto;
+    top: 0;
+
 }
 main .slider_images img{
     width: 100%;
     margin-top: -83px;
 }
+main .slider_images{
+    position: relative;
+}
+main .slider_images .header_btn_panel{
+    width: max-content;
+    height: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: -129px;
+
+}
+main .slider_images .header_btn_panel .header_btn{
+    background: linear-gradient(360deg,#e74c3c, #e74a39);
+    height: 30px;
+    width: max-content;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+main .slider_images .header_btn_panel .header_btn i{
+    color: #f5eeee;
+    margin: 3px;
+}
+main .slider_images .header_btn_panel .header_btn a{
+    text-decoration: none;
+    color: #f5f0f0;
+
+}
+main .slider_images .header_btn_panel .header_btn:hover{
+    transform: scale(0.9);
+}
+/*===============================Social Media Header==========================================================*/
+
 .wrapper{
     display: inline-flex;
     place-items: center;
@@ -120,6 +195,7 @@ main .slider_images img{
     transform: translateX(-50%)rotate(45deg);
 
 }
+
 .wrapper .icon:hover span i{
     color: #fff;
 }
@@ -155,5 +231,5 @@ main .slider_images img{
 .wrapper .instagram:hover .tooltip:before{
     background: #e13063;
 }
-/*--------------------------------------------------------------*/
 
+/*===============================Social Medial End==========================================================*/

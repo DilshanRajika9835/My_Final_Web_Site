@@ -1,9 +1,8 @@
 body{
     overflow-x: hidden;
-    background-color: #111010;
 }
 body>main{
-width: 100vw;
+    width: 100vw;
 }
 body>main>article{
     position: relative;
@@ -27,21 +26,76 @@ body  > main > article >section {
 
 
 }
-body  > main > article >section>div {
-    margin-left: 4px;
-
-}
+/*===============================Column One==========================================================*/
 body  > main > article >section .column_one {
     border: 1px solid white;
     height:497px ;
-    width:291px ;
+    margin-left: 4px;
+    position: relative;
 }
 
+.column_one .card{
+    background: #f7f5f5;
+    border: 1px solid;
+    color: black
+}
+.column_one .card .profile-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.column_one .card .profile-img #profiel{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+.column_one .card .content{
+    padding: 10px 20px;
+}
+.card .content .title{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.card .content .sub-title{
+    font-size: 9px;
+    text-align: center;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+}
+.details ul li{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    margin: 0 -20px;
+}
+.card .content .btn{
+    margin: 10px 0;
+    position: relative;
+
+}
+.content button{
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    justify-content: center;
+
+}
+.content button:hover{
+    transform: scale(0.9);
+}
+
+/*===============================Column Two==========================================================*/
 body  > main > article >section .column_two{
     position: relative;
     border:  1px solid white;
     height:497px ;
-    width:291px ;
 }
 article > section .column_two>img{
     left: 0;
@@ -55,7 +109,7 @@ article > section .column_two>img{
     right: 0;
     top: 0;
     bottom: 0;
-    height: 100%;/*change*/
+    height: 100%;
     width: 100%;
     margin: auto;
     position: absolute;
@@ -115,11 +169,10 @@ article > section .column_two>img{
 .team-text:hover{
     opacity: 1;
 }
-/*====================================================================================================================*/
+/*===============================Column Three==========================================================*/
 body  > main > article >section .column_three {
     display: block;
     position: relative;
-    background: linear-gradient(to top, #03264c,#2e5bc7, #0707d2,transparent);
     grid-row:1/4 ;
     grid-column: 3/4;
     overflow: hidden;
@@ -134,8 +187,6 @@ body> main> article>section>div:nth-child(3)>button{
     font-family: poppins, serif;
     cursor: pointer;
     margin: 5px 0 0 0;
-
-
 }
 
 body> main> article>section>div:nth-child(3)>button>a{
@@ -184,18 +235,21 @@ body  > main > article >section .column_three .bucket {
 
 }
 body  > main > article >section .column_three .folder{
-    height: 120px;
-    background: linear-gradient(360deg, #3c6ea3,#2e5bc7,white);
+    height: 100%;
     border-radius: 10px;
     margin: 8px;
+    position: relative;
+    background: linear-gradient(340deg,orange,orangered,black,white);
+    border: 1px solid white;
 
 }
 body  > main > article >section .column_three .folder i{
     color: #1752ac;
     font-size: 63px;
-    margin-left: 3px;
+    transform: translate(31px ,3px);
     cursor: pointer;
     text-align: center;
+    margin:0 0 13px 0;
 }
 body  > main > article >section .column_three .bucket .folder h2{
     font-size: 13px;
@@ -203,88 +257,16 @@ body  > main > article >section .column_three .bucket .folder h2{
     text-align: center;
     color: white;
 }
-
-
-/**************************************************************************/
-body> main> article>section>div:nth-child(3)>button{
-    background: linear-gradient(to left,royalblue, #12d5ba,#2e5bc7);
-}
-body> main> article>section>div:nth-child(3)>button:nth-child(1){
-    top: 50px;
-}
-body> main> article>section>div:nth-child(3)>button:nth-child(3){
-    top: 30px;
-}
-body> main> article>section>div:nth-child(3)>button:nth-child(1)>i{
-    color: #f6f8f6;
-}
-body> main> article>section>div:nth-child(3)>button:nth-child(2)>i{
-    color: #10cfe0;
-}
-body> main> article>section>div:nth-child(3)>button:nth-child(3)>i{
-    color: #bd0b5e;
-}
-
-/*=======================================================================================*/
-.column_one .card{
-    background: #f7f5f5;
-    border: 1px solid;
-    color: black
-}
-.column_one .card .profile-img{
-    width: 100%;
-    border-radius: 10px;
-}
-.column_one .card .profile-img #profiel{
-    height:100%;
-    width: 100%;
-    object-fit: cover;
-}
-.column_one .card .content{
-    padding: 10px 20px;
-}
-.card .content .title{
-    font-size: 16px;
-    text-align: center;
-    font-weight: 600;
-}
-.card .content .sub-title{
+body  > main > article >section .column_three .bucket .folder small {
     font-size: 9px;
     text-align: center;
-    font-weight: 600;
-    color: #e74c3c;
-    line-height: 20px;
-}
-.details ul li{
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 15px;
-    margin: 0 -20px;
-}
-.card .content .btn{
-    margin: 10px 0;
-    position: relative;
+    color: #0e0e0e;
 
-}
-.content button{
-    background: #e74c3c;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 12px;
-    padding: 5px 8px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-    justify-content: center;
-
-}
-.content button:hover{
-    transform: scale(0.9);
 }
 
 
-/*==========================================================================================*/
+/*===============================Column four==========================================================*/
+
 body  > main > article >section .column_four{
     grid-row:2/3 ;
     grid-column: 1/3;
@@ -327,7 +309,7 @@ svg circle:nth-child(2){
     stroke-dashoffset: calc(440 - (440*60)/100);
     stroke: #0a37e8;
 }
- #java:nth-child(1) svg circle:nth-child(2){
+#java:nth-child(1) svg circle:nth-child(2){
     stroke-dashoffset: calc(440 - (440*60)/100);
     stroke: #e8970a;
 }
@@ -345,6 +327,7 @@ svg circle:nth-child(2){
     box-sizing: border-box;
     display: flex;
     max-width: 1150px;
+    border: 1px solid black;
 }
 
 .software_Skill .card ,.technical_skill .card{
@@ -361,7 +344,7 @@ svg circle:nth-child(2){
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
-    box-shadow: 0 0 6px 0 white;
+    border: 1px solid red;
 
 }
 
@@ -422,9 +405,6 @@ svg circle:nth-child(2){
     transition: 0.5s;
     margin-top: -13px;
     text-align: center;
-
-
-
 }
 .card:hover .text_name{
     color: #06e509;
@@ -440,11 +420,10 @@ svg circle:nth-child(2){
     text-align: center;
     margin-top: -13px;;
 
-
-
 }
 
-/*==============================================================================*/
+/*===============================Column five==========================================================*/
+
 body  > main > article >section .column_five {
     position: relative;
     grid-column: 1/3 ;
@@ -456,6 +435,11 @@ body  > main > article >section .column_five {
     place-items: center;
     border: 1px solid white;
 }
+.column_five .slider_two .card_two .image_two img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
 .slider_two{
     max-width: 1150px;
     display: flex;
@@ -464,10 +448,13 @@ body  > main > article >section .column_five {
     flex: 2;
     margin: 10px 9px;
     background: #f2f2f2;
+    border: 1px solid #e31414;
+    border-radius: 10px;
+
 }
 .slider_two .card_two .content_two{
     padding: 10px 20px;
-    box-shadow: 1px 2px 3px 0 white;
+
 }
 .slider_two .card_two .content_two .title_name{
     font-size: 14px;
@@ -541,4 +528,22 @@ body  > main > article >section .column_five {
     bottom: 1px;
     margin: auto;
 }
+body  > main > article >section .column_five::before{
+    width: max-content;
+    height: max-content;
+    content: "My Education Progress";
+    z-index: 100;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    background: -webkit-linear-gradient(340deg,#eee,#dc0c0c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+}
+/*===============================Column Six==========================================================*/
