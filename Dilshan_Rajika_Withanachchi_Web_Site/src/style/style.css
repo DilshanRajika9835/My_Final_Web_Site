@@ -130,6 +130,9 @@ main .slider_images .header_btn_panel .header_btn a{
 main .slider_images .header_btn_panel .header_btn:hover{
     transform: scale(0.9);
 }
+abbr[title]{
+    text-decoration: none;
+}
 /*===============================Social Media Header==========================================================*/
 
 .wrapper{
@@ -163,7 +166,7 @@ main .slider_images .header_btn_panel .header_btn:hover{
 .wrapper .icon span i{
     font-size: 20px;
     line-height: 58px;
-    transform: translate(-2px,-10px);
+    transform: translate(0,-10px);
 }
 .wrapper .icon .fa{
     color: #fff;
@@ -231,5 +234,9 @@ main .slider_images .header_btn_panel .header_btn:hover{
 .wrapper .instagram:hover .tooltip:before{
     background: #e13063;
 }
-
+.wrapper .linkedin:hover span,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip:before{
+    background: #0c4ae8;
+}
 /*===============================Social Medial End==========================================================*/
