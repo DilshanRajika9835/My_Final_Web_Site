@@ -27,7 +27,9 @@ body>.Fill_Form{
     resize: none;
 
 }
-
+.footer_section .copy_right_title .title_bucket pre{
+    font-size: 10px;
+}
 .title_one{
     font-family: sans-serif;
     color: rgba(254, 255, 236, 0.8);
@@ -126,9 +128,8 @@ body>footer .footer_section .find_me {
     gap: 10px;
 }
 body>footer .footer_section .find_me>div {
-    height: max-content;
-    width: max-content;
-    font-size: 10px;
+
+    font-size: 15px;
     margin: 5px 0 0 0;
 
 }

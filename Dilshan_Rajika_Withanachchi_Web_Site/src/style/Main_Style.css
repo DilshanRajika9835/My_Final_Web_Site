@@ -476,8 +476,8 @@ body  > main > article >section .column_five {
 }
 
 .column_five .slider_two .card_two .image_two img{
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+   border-right: 10px;
+    width: 153px;
 
 }
 .slider_two{
@@ -511,7 +511,7 @@ body  > main > article >section .column_five {
 }
 .card_two .content_two p{
     text-align: justify;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 200;
     font-family: 'Fraunces', serif;
     margin: 10px 0;
