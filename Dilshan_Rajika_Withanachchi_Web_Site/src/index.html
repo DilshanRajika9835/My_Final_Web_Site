@@ -3,19 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/responcive.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/Main_Style.css">
     <link rel="stylesheet" href="style/footer_Style.css">
    <!-- <link rel="stylesheet" href="style/fontAwesome/css/all.min.css">-->
     <link rel="icon" href="../src/img/penguin.png" color="white">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=2 minimum-scale=1">
+   <!-- <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=2 minimum-scale=1">-->
+    <meta name="viewport" content="width=device-width initial-scale=1 ">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
     <title>Dilshan |Rajika |Withanachchi</title>
     <style>
+        @media
+        all and (min-width: 320px) and (max-width:375px ),(min-width: 375px) and (max-width:425px ){
 
+            body .page_header {
+                width: 733px;
+                height: 41px;
+            }
+            .slider_images .logo {
+                width: 72px;
+            }
+            main .slider_images img {
+                width: 738px;
+                height: 474px;
+
+            }
+            .column_five .slider_two .card_two .image_two img {
+                border-right: 10px;
+                width: 269px;
+            }
+            main .slider_images .header_btn_panel {
+                width: max-content;
+                height: 40px;
+                left: 180px;
+                right: 0;
+                margin: auto;
+                position: absolute;
+                top: 11px;
+                bottom: -129px;
+            }
+            main .slider_images img {
+                width: 735px;
+            }
+            .slider_images::before {
+                font-size: 20px;
+                left: 106px;
+
+            }
+            .slider_images::after {
+                font-size: 11px;
+                left: 186px;
+            }
+            body>footer .footer_section {
+                width: 733px;
+            }
+            body > main > article >section .column_five::before {
+                display: none;
+            }
+            body>.Fill_Form {
+                margin-left: 14px;
+                width: 719px;
+            }
+
+            body  > main > article >section .column_five {
+                width: 729px;
+                overflow: scroll;
+                overflow-y: hidden;
+            }
+
+            body > main > article >section .column_two {
+                height: 573px;
+                width: 277px;
+            }
+            body > main > article >section .column_three {
+                grid-row: 1/3;
+                grid-column: 3/3;
+                width: 176px;
+
+            }
+            .column_one .card .profile-img {
+                height: 277px;
+
+            }
+            .slider_two .card_two {
+                height: 586px;
+                margin: 10px 9px;
+                background: #f2f2f2;
+                border: 1px solid #e31414;
+                border-radius: 10px;
+            }
+
+            .column_three .animation_image .project_title {
+                font-size: 14px;
+            }
+            .column_three .animation_image .project_details {
+                font-size: 10px;
+            }
+            body > main > article >section .column_three .bucket .folder small {
+                font-size: 17px;
+            }
+            body > main > article >section .column_three .folder i {
+                transform: translate(60px ,3px);
+            }
+
+        }
+       
+        @media (min-width: 425px)and (max-width: 768px ) {
+            .column_three .animation_image .project_video {
+                width: 173%;
+            }
+            .column_three .animation_image .project_details {
+                height: 152px;
+                font-size: 15px;
+            }
+            body > main > article >section .column_three .folder i {
+                transform: translate(86px ,3px);
+            }
+            .column_five .slider_two .card_two .image_two img {
+                width: 248px;
+            }
+
+
+        }
     </style>
 </head>
 <body background="img/background.jpg">
@@ -173,7 +286,6 @@
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
-
                     </textarea>
                         <video controls loop autoplay muted class="project_video">
                             <source src="video/project_Video_One.mp4" >
@@ -184,6 +296,7 @@
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     </textarea>
+
                     </section>
                 </div>
                 <div class="header">What I Do?</div>
@@ -200,7 +313,6 @@
             </div>
             <!--*****************************************************************************************-->
             <div class="column_four">
-                <div class="technical_skill">
                     <div class="software_Skill ">
                         <div class="card" id="html">
                             <div class="box">
@@ -267,10 +379,8 @@
                         </div>
 
                     </div>
-                </div>
                 <!----------------------------------------------->
-                <div class="technical_skill">
-                    <div class="software_Skill ">
+                    <div class="technical_skill ">
                         <div class="card" id="automobile">
                             <div class="box">
                                 <div class="percent">
@@ -332,8 +442,11 @@
                             </div>
                         </div>
 
+
+
+
                     </div>
-                </div>
+
             </div>
 
             <div class="column_five">
@@ -394,6 +507,7 @@
             </div>
         </section>
     </article>
+
 </main>
 
 
