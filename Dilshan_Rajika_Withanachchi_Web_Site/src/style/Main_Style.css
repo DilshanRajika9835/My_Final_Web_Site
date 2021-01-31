@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-
 }
 body>main{
     width: 100vw;
@@ -73,26 +72,25 @@ article > section .column_two>img{
     opacity: 0;
 }
 
-.team-text h2{
+.team-text h2 {
     margin: 0;
-    font-size: 19px;
+    font-size: 38px;
     color: white;
     text-align: center;
     font-family: 'Shrikhand', cursive;
     letter-spacing: 3px;
 }
-
 .team-text p{
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     margin: 0;
     text-align: center;
     font-family: poppins, serif;
 }
 .team-text a{
-    width: 16px;
-    height: 16px;
+    width: 27px;
+    height: 27px;
     display: inline-block;
     border: 1px solid #fff;
     border-radius: 50%;
@@ -101,10 +99,10 @@ article > section .column_two>img{
 }
 .team-text a i{
     color: white;
-    padding: 64px 3px;
+    padding: 60px 0;
     cursor: pointer;
-    font-size: 10px;
-    top: -61px;
+    font-size: 20px;
+    top: -57px;
     position: relative;
 }
 .single-team:hover  {
@@ -155,11 +153,11 @@ body> main> article>section>div:nth-child(3)>button>a{
     width:100%;
 }
 .column_three .animation_image  .project_details{
-    height: 100px;
+    height: 105px;
     margin: 0;
     width: 98%;
     resize: none;
-    font-size: 10px;
+    font-size: 15px;
 
 }
 .column_three .animation_image  .project_title{
@@ -180,12 +178,13 @@ body  > main > article >section .column_three .header{
 }
 body  > main > article >section .column_three .bucket {
     overflow: scroll;
+    height: 229px;
     overflow-y: hidden;
     display: -webkit-box;
 
 }
 body  > main > article >section .column_three .folder{
-    height: 100%;
+    height: 78%;
     border-radius: 10px;
     margin: 8px;
     position: relative;
@@ -248,10 +247,10 @@ body  > main > article >section .column_three .bucket .folder small {
     color: #e74c3c;
     line-height: 20px;
 }
-.details ul li{
-    font-size: 12px;
+.details ul li {
+    font-size: 17px;
     font-weight: 300;
-    line-height: 15px;
+    line-height: 20px;
     margin: 0 -20px;
 }
 .card .content .btn{
@@ -344,14 +343,14 @@ svg circle{
     cursor: pointer;
     border-radius: 10px;
     border: 1px solid red;
-    z-index: -2;
+    z-index: 5;
 
 }
 
 .software_Skill .card:before ,.technical_skill .card:before{
     content: '';
     position: absolute;
-    left: -50%;
+    left: 1%;
     width: 100%;
     height: 100%;
     background: rgba(255,255,255,0.03);
@@ -409,14 +408,16 @@ svg circle{
 
 
 }
-.card:hover .text_name{
-    color: #06e509;
+
+
+.software_Skill .card:hover .text_name,.technical_skill .card:hover .text_name{
+    color: #23f10a;
 }
 .text_name{
     position: relative;
     color: #777;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 0.5s;
@@ -477,7 +478,7 @@ body  > main > article >section .column_five {
 
 .column_five .slider_two .card_two .image_two img{
    border-right: 10px;
-    width: 153px;
+    width: 236px;
 
 }
 .slider_two{
@@ -526,7 +527,7 @@ body  > main > article >section .column_five {
     border: none;
     outline: none;
     color: white;
-    font-size: 11px;
+    font-size: 20px;
     cursor: pointer;
     padding: 4px 4px;
     border-radius: 5px;
@@ -545,7 +546,7 @@ body  > main > article >section .column_five {
     border: none;
     outline: none;
     color: #240ee5;
-    font-size: 18px;
+    font-size: 25px;
     cursor: pointer;
     padding: 4px 4px;
     border-radius: 5px;

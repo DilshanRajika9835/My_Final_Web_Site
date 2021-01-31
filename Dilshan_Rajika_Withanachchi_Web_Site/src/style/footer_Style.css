@@ -1,7 +1,12 @@
 
-body>.Fill_Form{
+body>.Fill_Form {
+    margin-left: 8px;
+    margin-top: 5px;
+    width: 1331px;
     color: white;
-    background: linear-gradient(30deg, #0c74dc, #06e081, #1150f3,orangered);
+    background: linear-gradient(
+            30deg
+            , #0c74dc, #06e081, #1150f3,orangered);
     border-radius: 10px;
 }
 

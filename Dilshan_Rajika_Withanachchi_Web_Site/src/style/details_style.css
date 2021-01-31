@@ -1,0 +1,116 @@
+body{
+    overflow-x: hidden;
+
+}
+body>main{
+    width: 100vw;
+}
+body>main .sider_scroll{
+    position: relative;
+    width: 100%;
+
+}
+/*slider blue */
+body  > main .sider_scroll aside{
+    width: 10px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+body  > main .sider_scroll .group{
+    display: grid;
+    height: 100%;
+    grid-gap: 3px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+}
+
+body  > main .sider_scroll .group .group_folder{
+    border-radius: 10px;
+    position: relative;
+}
+body  > main .sider_scroll .group .group_folder img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+body  > main .sider_scroll .group .group_folder:nth-child(1)::before{
+ background: transparent;
+}
+body  > main .sider_scroll .group .group_folder video{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    border: none;
+    outline-color: black;
+
+}
+body  > main .sider_scroll >section:nth-child(1)::after{
+    border: 1px solid white;
+    content: " ";
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+    top: 0;
+    z-index: 40;
+    bottom: 0;
+    line-height: 40px;
+}
+body  > main .sider_scroll .group .group_folder .view_btn{
+    position: absolute;
+    border-radius: 10px;
+    width: 95px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background: #fb3200c4;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+   opacity: 0;
+    transform: translateY(50px);
+    transition: 0.8s;
+
+}
+body  > main .sider_scroll .group .group_folder .view_btn a{
+    color: white;
+    text-decoration: none;
+}
+body  > main .sider_scroll .group .group_folder::before {
+    content: " ";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    background: #123166;
+    left: 0;
+    right: 0;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+
+}
+body  > main .sider_scroll .group .group_folder:hover::before{
+    background:linear-gradient(to top,black,transparent);
+    z-index: 5;
+}
+body  > main .sider_scroll .group .group_folder:hover .view_btn{
+  opacity: 1;
+    z-index: 6;
+}
+

@@ -17,13 +17,13 @@ body .page_header{
 }
 .page_header .list li ,.sub-list li{
     float: left;
-    width: 113px;
+    width: 139px;
     height: 41px;
     background-color: #141514;
     opacity: 0.8;
     line-height: 40px;
     text-align: center;
-    font-size: 15px;
+    font-size: 21px;
 
 }
 .page_header .list li a ,.sub-list li a{
@@ -54,7 +54,7 @@ body .page_header{
     letter-spacing: 1px;
     text-transform: uppercase;
     position: absolute;
-    font-size: 30px;
+    font-size: 51px;
     background: -webkit-linear-gradient(360deg, #0a37e8,#dc0c0c,black,white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,7 +73,7 @@ body .page_header{
     letter-spacing: 1px;
     text-transform: uppercase;
     position: absolute;
-    font-size: 17px;
+    font-size: 32px;
     color: #f3efef;
     width: max-content;
     height: max-content;
@@ -82,7 +82,7 @@ body .page_header{
     right: 0;
     margin: auto;
     bottom: 0;
-    top: 65px;
+    top: 102px;
 }
 .slider_images .logo{
     position: absolute;
@@ -107,12 +107,12 @@ main .slider_images .header_btn_panel{
     margin: auto;
     position: absolute;
     top: 0;
-    bottom: -129px;
+    bottom: -202px;
 
 }
 main .slider_images .header_btn_panel .header_btn{
     background: linear-gradient(360deg,#e74c3c, #e74a39);
-    height: 30px;
+    height: 46px;
     width: max-content;
     border-radius: 10px;
     outline: none;
@@ -121,10 +121,12 @@ main .slider_images .header_btn_panel .header_btn{
 main .slider_images .header_btn_panel .header_btn i{
     color: #f5eeee;
     margin: 3px;
+    font-size: 26px;
 }
 main .slider_images .header_btn_panel .header_btn a{
     text-decoration: none;
     color: #f5f0f0;
+    font-size: 26px;
 
 }
 main .slider_images .header_btn_panel .header_btn:hover{
