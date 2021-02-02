@@ -196,15 +196,20 @@ body  > main > article >section .column_three .folder{
 body  > main > article >section .column_three .folder i{
     color: #62f109;
     font-size: 63px;
-    transform: translate(168px ,3px);
+    transform: translate(186px ,3px);
     cursor: pointer;
     text-align: center;
     margin:0 0 13px 0;
 }
-body  > main > article >section .column_three .bucket .folder h2{
-    font-size: 13px;
+body  > main > article >section .column_three .bucket .folder h2 {
+
     margin: 0;
     text-align: center;
+
+}
+body  > main > article >section .column_three .bucket .folder h2 a{
+    text-decoration: none;
+    font-size: 15px;
     color: white;
 }
 body  > main > article >section .column_three .bucket .folder small {

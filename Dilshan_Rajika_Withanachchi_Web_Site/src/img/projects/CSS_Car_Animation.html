@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../style/normalize.css">
+    <title>CSS_Animation</title>
+
+    <style>
+        body{
+            overflow: hidden;
+
+        }
+       .background  img{
+           background-size: cover;
+           background-position: center;
+           position: relative;
+           overflow-x: hidden;
+           height: 100vh;
+           width: 100%;
+
+
+       }
+        .road img{
+            height: 114px;
+            width: 214%;
+            display: block;
+            position: absolute;
+            bottom: -16px;
+            left: 0;
+            right: 0;
+            background-repeat: repeat-x;
+            animation: city-road 1s linear infinite;
+        }
+        @keyframes city-road {
+            100%{
+                transform: translateX(-200px);
+            }
+        }
+        .city img{
+             width: 125%;
+            display: block;
+            position: absolute;
+            top: 226px;
+            background-repeat: repeat-x;
+            animation: city-road 1s linear infinite;
+        }
+        .car img{
+            height: 100px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 512px;
+            bottom: 28px;
+            background-repeat: repeat-x;
+            animation: car-img 5s linear infinite;
+
+            }
+        @keyframes car-img {
+            100%{
+                transform: translateY(-1px);
+            }
+            50%{
+                transform: translateY(1px);
+            }
+            0%{
+                transform: translateY(-1px);
+            }
+        }
+        .wheel{
+            left: 50%;
+            bottom: 18%;
+            position: absolute;
+        }
+        .wheel img{
+            width: 50px;
+            height: 50px;
+            background-repeat: repeat-x;
+            animation: car-wheel 1s linear infinite;
+        }
+        .wheel img:nth-child(1){
+            position: absolute;
+            left: -102px;
+            bottom: -94px;
+        }
+        .wheel img:nth-child(2){
+            position: absolute;
+            left: 46px;
+            bottom: -94px;
+        }
+        @keyframes car-wheel {
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+</style>
+</head>
+<body>
+<section>
+    <div class="background"><img  src="assert/sky.jpg" alt="img"></div>
+        <div class="road"> <img  src="assert/road.jpg" alt="img"></div>
+        <div class="city"> <img  src="assert/city.png" alt="img"></div>
+        <div class="car"><img  src="assert/car.png" alt="img"></div>
+        <div class="wheel">
+            <img  src="assert/wheel.png" alt="img">
+            <img  src="assert/wheel.png" alt="img">
+
+        </div>
+
+
+
+
+
+
+</section>
+</body>
+</html>
