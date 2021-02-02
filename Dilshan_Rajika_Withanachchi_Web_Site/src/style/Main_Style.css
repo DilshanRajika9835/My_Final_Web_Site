@@ -23,6 +23,7 @@ body  > main > article >section {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3px;
+    margin-top: 6px;
 
 
 }
@@ -594,3 +595,62 @@ body  > main > article >section .column_five::before{
 
 }
 /*=======================================================================*/
+main .slider_images{
+    height: 566px;
+    width: 100%;
+    overflow: hidden;
+}
+main .slider_images .image_main{
+
+    height: 100%;
+    width: 400%;
+    display: flex;
+    animation: slider_Controller 15s infinite;
+}
+main .slider_images .image_main .images{
+    height: 100%;
+    width: 100%;
+
+}
+main .slider_images .image_main .images:nth-child(1){
+    background:url("../img/maldives.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main .slider_images .image_main .images:nth-child(2){
+    background:url("../img/maldives.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main .slider_images .image_main .images:nth-child(3){
+    background:url("../img/maldives.jpg");
+    background-size: cover;
+    background-position: center;
+}
+main .slider_images .image_main .images:nth-child(4){
+    background:url("../img/maldives.jpg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes slider_Controller {
+    0%,20%{
+        transform: translateX(0%);
+    }
+    25%,40%{
+        transform: translateX(-25%);
+    }
+    50%,70%{
+        transform: translateX(-50%);
+    }
+    75%,100%{
+        transform: translateX(-75%);
+    }
+
+}
+main > .logo{
+    border-style: none;
+    position: absolute;
+    left: 18px;
+    z-index: 3;
+    width: 236px;
+}

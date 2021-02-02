@@ -3,7 +3,7 @@ body .page_header{
     color: white;
     z-index: 1;
     position: relative;
-    width: 100%;
+    width: 102%;
     height: 41px;
     background-color: #111111;
     box-shadow: 1px 2px 4px #d5cccc;
@@ -66,6 +66,8 @@ body .page_header{
     margin: auto;
     bottom: 0;
     top: 0;
+    z-index: 4;
+
 }
 
 .slider_images::after{
