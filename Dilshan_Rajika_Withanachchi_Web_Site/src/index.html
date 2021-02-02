@@ -10,7 +10,8 @@
     <link rel="icon" href="../src/img/penguin.png" color="white">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=2 minimum-scale=1">-->
-    <meta  content="width=device-width initial-scale=1" name="viewport">
+    <meta  content="width=device-width initial-scale=1" name="viewport" user-scalable="no">
+    <meta name="description" content="Software Engineering Dilshan Rajika Withanachchi IJSE Sri Lanka Peoples ">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
@@ -56,6 +57,7 @@
             }
 
         }
+        /*--------------------------------------------------------*/
             @media (min-width: 768px) and (max-width: 1023px) {
                 body .page_header {
                     width: 174%;
@@ -173,6 +175,10 @@
                 body > main > article >section .column_three .folder {
                     width: 307px;
                 }
+                .column_three .animation_image .project_details {
+                    height: 92px;
+                }
+
             }
 
        /*-----------------------------------------------------------------*/
@@ -230,32 +236,32 @@
 <header class="page_header">
     <ul class="list">
         <li><a><i class="fa fa-home"></i>Home</a></li>
-        <li><a><i class="fa fa-user"></i>About</a>
+        <li><a ><i class="fa fa-user"></i>About</a>
             <ul class="sub-list">
-                <li><a>About_Me</a></li>
-                <li><a>Gallery</a></li>
+                <li><a href="https://www.linkedin.com/in/dilshan-rajika-withanachchi-6435561b8">About_Me</a></li>
+                <li><a href="details_index.html">Gallery</a></li>
             </ul>
         </li>
 
         <li><a><i class="fa fa-graduation-cap"></i>Education</a>
             <ul class="sub-list">
-                <li><a>Certificates</a></li>
-                <li><a>Schools_Details</a></li>
+                <li><a href="details_index.html">Certificates</a></li>
+                <li><a href="#Collage" >Schools_Details</a></li>
             </ul></li>
 
         <li><a><i class="fa fa-american-sign-language-interpreting" ></i>Skill</a>
             <ul class="sub-list">
-                <li><a>Certificates</a></li>
-                <li><a>Diploma</a></li>
-                <li><a>Project</a></li>
-                <li><a>Other</a></li>
+                <li><a href="details_index.html">Certificates</a></li>
+                <li><a href="details_index.html">Diploma</a></li>
+                <li><a href="details_index.html">Project</a></li>
+                <li><a href="details_index.html">Other</a></li>
             </ul>
         </li>
 
         <li><a><i class="fa fa-mobile" ></i>Contact Me</a>
             <ul class="sub-list">
-                <li><a>WhatsApp</a></li>
-                <li><a>Sent_Email</a></li>
+                <li><a href="tel:94766681528">WhatsApp</a></li>
+                <li><a href="mailto:dilshanrajitha1998@gmail.com">Sent_Email</a></li>
             </ul>
         </li>
     </ul>
@@ -291,10 +297,11 @@
             <button class="header_btn">
                 <i class="fa fa-phone" ></i><a href="tel:0766681528"><abbr title="Contact Me on a Call">Contact</abbr></a></button>
             <button class="header_btn">
-                <i class="fa fa-cloud-download" ></i><a href="#"><abbr title="Download My Bio Data as PDF">
+                <i class="fa fa-cloud-download" ></i><a href="pdf/MyCV.pdf"download=""><abbr
+                    title="Download My Bio Data as PDF">
                 Download</abbr></a></button>
             <button class="header_btn">
-                <i class="fa fa-comments"></i><a href="#"><abbr title="Send message to Email">Message</abbr></a></button>
+                <i class="fa fa-comments"></i><a href="mailto:dilshanrajitha1998@gmail.com"><abbr title="Send message to Email">Message</abbr></a></button>
         </aside>
 
     </section>
@@ -313,7 +320,7 @@
                             <ul>
                                 <li>Full Name Withanachchi Dilshan Rajika</li>
                                 <li>Date Of Birth:05-03-1998</li>
-                                <li>Nic Number 980653285V</li>
+                                <li>NIC Number 980653285V</li>
                                 <li>Address: No37,Hamugewaththa Uluvitike Galle</li>
                                 <li>Email :<wbr>Dilshanrajitha<wbr>1998@gmail.com</li>
                                 <li>Phone :+94 766681528</li>
@@ -353,12 +360,12 @@
                         <video controls loop autoplay muted class="project_video">
                             <source src="video/usingHibernate.mp4" >
                         </video>
-                        <h1 class="project_title" id="first_title">Vehicle Spare Parts Selling Shop</h1>
-                        <textarea class="project_details" id="first-details">
-                   ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi
-                            perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
-                    Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
-                    Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
+                        <h1 class="project_title" id="first_title">Thogakade Project-Hibernate</h1>
+                        <textarea class="project_details" id="first-details">This project is Configuration with property file Configuration...
+                            We can place Order ,Save Customer,Save Items ,Update Item,Delete Items,View All Items
+                            Using Table View..
+
+
 
                     </textarea>
 
@@ -373,18 +380,18 @@
 
                     </textarea>
                         <video controls loop autoplay muted class="project_video">
-                            <source src="video/vehicleSparePartProjects.mp4" >
+                            <source src="video/CSS_Fixed_Layout.mp4" >
                         </video>
-                        <h1 class="project_title">Vehicle Spare Parts Selling Shop</h1>
+                        <h1 class="project_title">CSS_Fixed_Layout</h1>
                         <textarea class="project_details">
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     </textarea>
                         <video controls loop autoplay muted class="project_video">
-                            <source src="video/usingHibernate.mp4" >
+                            <source src="video/CSS_Sticky_Position.mp4" >
                         </video>
-                        <h1 class="project_title">Vehicle Spare Parts Selling Shop</h1>
+                        <h1 class="project_title">CSS_Sticky_Position</h1>
                         <textarea class="project_details">
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
                     Lorem ipsum dolor sit amet,consecteturadipisicingelit. Adipisci illum minus nisi perspiciatis totam velit voluptate? Amet delectus, dicta dolores, eligendi laboriosam laborum maiores minus quas quo soluta velit voluptatum?
@@ -395,14 +402,43 @@
                 </div>
                 <div class="header">What I Do?</div>
                 <section class="bucket ">
-                    <div class="folder"><i class="fa fa-book" aria-hidden="true"></i><h2>Java Project<br><small>This folder include my java project you can click and view my project one by one </small></h2></div>
-                    <div class="folder"><i class="fa fa-book"></i><h2>Java Project<br><small>This folder include my java project you can click and view my project one by one </small></h2></div>
-                    <div class="folder"><i class="fa fa-book"></i><h2>Java Project<br><small>This folder include my java project you can click and view my project one by one </small></h2></div>
-                    <div class="folder"><i class="fa fa-book"></i><h2>Java Project<br><small>This folder include
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/CSS_Position.html">HTML Assignment 1</a><br><small>
+                        This folder include my java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/CSS_Sticky_Position.html">HTML
+                        Assignment 2</a><br><small>This folder include
                         my java project you can click and view my project one by one </small></h2></div>
-                    <div class="folder"><i class="fa fa-book"></i><h2>Java Project<br><small>This folder include my
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/Fixed_layOut.html">HTML
+                        Assignment 3</a><br><small>This folder include
+                        my java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/CSS_Page_Layout.html">HTML
+                        Assignment 4</a><br><small>This folder include my
                         java project you can click and view my project one by one </small></h2></div>
-                    <div class="folder"><i class="fa fa-book"></i><h2>Java Project<br><small>This folder include my java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/Grid_LayOut.html">HTML
+                        Assignment 5</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/Fixed_layOut.html">HTML
+                        Assignment 6</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/Circle_Rotation_Animation.html">HTML
+                        Assignment 7</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/CSS_Animation_Box_Rotation.html">HTML
+                        Assignment 8</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/RWAD_Circle_Rotation_Animation.html">HTML
+                        Assignment 9</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/Social_Media_Animation_Slider.html">HTML
+                        Assignment 10</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/Image_Slider.html">HTML
+                        Assignment 11</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+                    <div class="folder"><i class="fa fa-book"></i><h2><a href="img/projects/Water_Drop_Animation.html">HTML
+                        Assignment 12</a><br><small>This folder include my
+                        java project you can click and view my project one by one </small></h2></div>
+
+
                 </section>
             </div>
             <!--*****************************************************************************************-->
@@ -586,10 +622,11 @@
 
             </div>
 
-            <div class="column_five">
+            <div class="column_five" >
+                <dfn id="Collage"></dfn>
                 <div class="slider_two ">
                     <div class="card_two">
-                        <div class="image_two"><img src="img/educationIMG/hapugalamahavidyalaya.jpg" alt=""></div>
+                        <div class="image_two"><img src="img/educationIMG/Hapugala_Collage.png" alt=""></div>
                         <div class="content_two">
                             <div class="title_name">G/Hapugala Maha Vidyalaya</div>
                             <div class="sub_title_two">Primary Education Up to O/L(2003-2004)</div>
@@ -603,7 +640,7 @@
                     </div>
 
                     <div class="card_two">
-                        <div class="image_two"><img src="img/educationIMG/richard%20pathiranacollage.jpg" alt=""></div>
+                        <div class="image_two"><img src="img/educationIMG/Richard_Pathirana_Collage.png" alt=""></div>
                         <div class="content_two">
                             <div class="title_name">DR/Richard Pathirana Collage</div>
                             <div class="sub_title_two">Secondary Education up to A/L(2015-1017)</div>
@@ -616,7 +653,7 @@
                     </div>
 
                     <div class="card_two">
-                        <div class="image_two"><img src="img/educationIMG/vta.jpg" alt=""></div>
+                        <div class="image_two"><img src="img/educationIMG/VtA_Koggala.png" alt=""></div>
                         <div class="content_two">
                             <div class="title_name">Vocational Traning Authority Koggala</div>
                             <div class="sub_title_two">Electronic Technical Course(2017-2018)</div>
@@ -680,11 +717,11 @@
         <div class="follow_me"><h2 class="title">Thank For Watching Following Me On!</h2></div>
         <div class="social_icon">
             <section class="social_bucket">
-                <div><i class="fa fa-whatsapp" ></i></div>
-                <div><i class="fa fa-facebook-official"></i></div>
-                <div><i class="fa fa-instagram"></i></div>
-                <div><i class="fa fa-linkedin-square" ></i></div>
-                <div><i class="fa fa-github"></i> </div>
+                <div><a href="tel:+94766681528"><i class="fa fa-whatsapp" ></i></a></div>
+                <div><a href="https://www.facebook.com/dilshan.rajitha.5205/"><i class="fa fa-facebook-official"></i></a></div>
+                <div><a href="https://www.instagram.com/d_i_l_s_h_a_n_r_a_j_i_k_a/"><i class="fa fa-instagram"></i></a></div>
+                <div><a href="https://www.linkedin.com/in/dilshan-rajika-withanachchi-6435561b8"><i class="fa fa-linkedin-square" ></i></a></div>
+                <div><a href="https://github.com/DilshanRajika9835"><i class="fa fa-github"></i> </a></div>
             </section>
         </div>
         <div class="copy_right_title">

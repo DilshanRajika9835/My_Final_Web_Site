@@ -492,3 +492,28 @@
                 width: 861px;
             }
         }*/
+
+
+        <img src="img/maldives.jpg" alt="image" >
+                <img class="logo" src="img/logo.png" alt="image" >
+                <div class="wrapper">
+                    <div class="icon facebook">
+                        <div class="tooltip">Facebook</div>
+                        <span > <a href="https://www.facebook.com/dilshan.rajitha.5205/"><i class="fa fa-facebook"></i></a> </span>
+                    </div>
+                    <div class="icon github">
+                        <div class="tooltip">Github</div>
+                        <span><a href="https://github.com/DilshanRajika9835"><i class="fa fa-github"></i></a></span>
+                    </div>
+                    <div class="icon whatsapp">
+                        <div class="tooltip">Whatsapp</div>
+                        <span><a href="tel:+94766681528"><i class="fa fa-whatsapp"></i></a></span>
+                    </div>
+                    <div class="icon instagram">
+                        <div class="tooltip">Instagram</div>
+                        <span><a href="https://www.instagram.com/d_i_l_s_h_a_n_r_a_j_i_k_a/"><i class="fa fa-instagram"></i></a></span>
+                    </div>
+                    <div class="icon linkedin">
+                        <div class="tooltip">LinkedIn</div>
+                        <span><a href="https://www.linkedin.com/in/dilshan-rajika-withanachchi-6435561b8"><i class="fa fa-linkedin-square"></i></a></span>
+                    </div>

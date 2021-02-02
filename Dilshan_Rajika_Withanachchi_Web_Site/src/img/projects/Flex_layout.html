@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment| Positions</title>
+    <link href="/src/style/normalize.css" rel="stylesheet">
+    <style>
+        body>section{
+            height: 200px;
+            position: relative;
+        }
+        section>div{
+            position: absolute;
+            height: 100%;
+            width: calc(100%/3);
+            border: 1px solid green;
+        }
+        section>div:nth-child(1){
+            background-color: red;
+            left: 0;
+        }
+        section>div:nth-child(2){
+            background-color: yellow;
+            left: calc((100%/3)*1);
+        }
+        section>div:nth-child(3){
+            background-color: green;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>

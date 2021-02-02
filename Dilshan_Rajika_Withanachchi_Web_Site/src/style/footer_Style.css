@@ -73,7 +73,7 @@ body>footer .footer_section .follow_me{
 body>footer .footer_section .follow_me .title{
     font-size: 11px;
 }
-body>footer .footer_section .social_icon .social_bucket  >div >i{
+body>footer .footer_section .social_icon .social_bucket  >div a >i{
     color: white;
     font-size: 25px;
 }
@@ -95,19 +95,19 @@ body>footer .footer_section .social_icon .social_bucket  >div{
     cursor: pointer;
 
 }
-body>footer .footer_section .social_icon .social_bucket >div:nth-child(1)>i{
+body>footer .footer_section .social_icon .social_bucket >div:nth-child(1) a > i{
     color: #318e07;
 }
-body>footer .footer_section .social_icon .social_bucket >div:nth-child(2)>i{
+body>footer .footer_section .social_icon .social_bucket >div:nth-child(2) a > i{
     color: #13257b;
 }
-body>footer .footer_section .social_icon .social_bucket >div:nth-child(3)>i{
+body>footer .footer_section .social_icon .social_bucket >div:nth-child(3) a > i{
     color: #c70b7a;
 }
-body>footer .footer_section .social_icon .social_bucket >div:nth-child(4)>i{
+body>footer .footer_section .social_icon .social_bucket >div:nth-child(4) a > i{
     color: #2e5bc7;
 }
-body>footer .footer_section .social_icon .social_bucket >div:nth-child(5)>i{
+body>footer .footer_section .social_icon .social_bucket >div:nth-child(5) a > i{
     color: #404440;
 }
 body>footer .footer_section .copy_right_title{

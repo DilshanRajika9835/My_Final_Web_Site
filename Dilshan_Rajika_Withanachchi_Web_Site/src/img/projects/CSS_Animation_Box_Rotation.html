@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/src/style/normalize.css">
+    <title>CSS_Animation</title>
+    <style>
+        body{
+            overflow: hidden;
+        }
+
+        div{
+            width: 120px;
+            height: 54px;
+            background-color: #d98d09;
+            border-radius: 10px;
+            margin:5px 0 0 5px;
+            animation-duration: 8s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-name: change-color;
+        }
+        @keyframes change-color {
+            0%{
+                background-color: green;
+                transform: rotate(0deg);
+                animation-delay: 1s;
+                margin:5px 0 0 5px;
+            }
+            25%{
+                background-color: #940fdc;
+                transform: rotate(180deg);
+                margin:5px 0 0 760px;
+
+            }
+            50%{
+                background-color: #0cdead;
+                transform: rotate(360deg);
+                margin:333px 0 0 760px;
+
+            }
+            75%{
+                background-color: #cd1711;
+                margin:333px 300px 0 0;
+                transform: rotate(180deg);
+                animation-delay: 1s;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+
+
+</body>
+</html>

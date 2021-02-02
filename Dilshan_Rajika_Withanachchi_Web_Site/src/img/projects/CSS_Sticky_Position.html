@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment| CSS Sticky Position</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body>section{
+            height: 100vh;
+            position: relative;
+
+        }
+        section>div{
+            height: 40px;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 3;
+            color: white;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        h1{
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            font-weight: 800;
+            font-size: 74px;
+            position: absolute;
+
+        }
+        .section_one{
+            background-color: #f6f2f2;
+        }
+       .section_one .a{
+            background-color: yellow;
+        }
+        .section_two{
+            background-color: #388bdc;
+        }
+        .section_two .b{
+            background-color: #052678;
+        }
+        .section_three{
+            background-color: #423319;
+        }
+        .section_three .c{
+            background-color: #7d6a37;
+        }
+        .section_four{
+            background-color: orangered;
+        }
+        .section_four .e{
+            background-color:saddlebrown;
+        }
+
+    </style>
+</head>
+<body>
+<section class="section_one">
+    <div class="a">Card 1</div>
+    <h1 class="hello">Hello</h1>
+</section>
+<section class="section_two">
+    <div class="b">Card 2</div>
+    <h1>How</h1>
+</section>
+<section class="section_three">
+    <div class="c">Card 3</div>
+    <h1>Are</h1>
+</section>
+<section class="section_four">
+    <div class="e">Card 4</div>
+    <h1>You..?</h1>
+</section>
+
+
+</body>
+</html>

@@ -150,7 +150,8 @@ body> main> article>section>div:nth-child(3)>button>a{
 }
 
 .column_three .animation_image .project_video {
-    width:100%;
+    width: 100%;
+    margin-top: 9px;
 }
 .column_three .animation_image  .project_details{
     height: 105px;
@@ -478,7 +479,7 @@ body  > main > article >section .column_five {
 
 .column_five .slider_two .card_two .image_two img{
    border-right: 10px;
-    width: 236px;
+    width: 270px;
 
 }
 .slider_two{
@@ -487,13 +488,14 @@ body  > main > article >section .column_five {
 }
 .slider_two .card_two{
     margin: 10px 9px;
-    background: #f2f2f2;
+    background: linear-gradient(to top, royalblue,#e74c3c,white);
     border: 1px solid #e31414;
     border-radius: 10px;
 
 }
+
 .slider_two .card_two .content_two{
-    padding: 10px 20px;
+    padding: 10px 10px;
 
 }
 .slider_two .card_two .content_two .title_name{
@@ -505,7 +507,7 @@ body  > main > article >section .column_five {
     font-size: 12px;
     text-align: center;
     font-weight: 600;
-    color: #e74c3c;
+    color: #f5efef;
     line-height: 20px;
 
 }

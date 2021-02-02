@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment| CSS Sticky Position</title>
+    <link rel="stylesheet" href="/src/style/normalize.css">
+    <style>
+        body>section{
+            width: 100vh;
+            position: relative;
+        }
+        body>section .circle{
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 300px;
+            height: 300px;
+            position: fixed;
+            margin: auto;
+            background-color: transparent;
+            border-radius: 100%;
+            fill: none;
+            box-shadow: 0 0 0 17px #938f80;
+            z-index: 3;
+
+        }
+        body>section .circle .inner-circle{
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 260px;
+            height: 260px;
+            position: fixed;
+            margin: auto;
+            border-radius: 100%;
+            background-color: transparent;
+            box-shadow: 0 0 0 21px #f5080d;
+        }
+        article{
+            display: block;
+            height: 100vh;
+            position: relative;
+        }
+        .color{
+            border-radius: 100%;
+            width: 260px;
+            height: 260px;
+
+            bottom: 0;
+            margin: auto;
+            position: absolute;
+        }
+
+       article .one{
+           right: 0;
+           top: -14px;
+           left: 0;
+           background-color: #a629ba;
+        }
+        .two{
+            right: -1px;
+            top: -3px;
+            left: 0;
+            background-color: #12eaea;
+        }
+        .three{
+            right: -2px;
+            top: 16px;
+            left: -1px;
+            background-color: #ea3142;
+        }
+        .title{
+            color: white;
+            font-size: 40px;
+            font-weight: 600;
+            margin-top: 100px;
+        }
+        .word-one{
+            margin-left: 74px;
+        }
+        .word-two{
+            margin-left: 34px;
+        }
+        pre{
+            color: white;
+            position: relative;
+            left: -148px;
+            right: 0;
+            bottom: 0;
+            top: 53px;
+            margin: auto;
+            font-size: 29px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div class="circle">
+        <div class="inner-circle"></div>
+    </div>
+</section>
+<!------------------------->
+<article>
+    <aside class="color one">
+        <h1 class="title word-one">Hello</h1>
+    </aside>
+</article>
+
+<article>
+    <aside class="color two">
+        <h1 class="title word-two">Welcome to</h1>
+    </aside>
+</article>
+
+<article>
+    <aside class="color three">
+        <pre>
+             Institute
+                of
+              Software
+            Engineering</pre>
+    </aside>
+</article>
+
+</body>
+
+</html>
