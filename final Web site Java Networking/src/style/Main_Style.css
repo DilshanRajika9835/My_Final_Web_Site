@@ -623,7 +623,7 @@ main .slider_images .image_main .images:nth-child(2){
     background-position: center;
 }
 main .slider_images .image_main .images:nth-child(3){
-    background:url("../img/maldives.jpg");
+    background:url("../img/image2.jpg");
     background-size: cover;
     background-position: center;
 }
